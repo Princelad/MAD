@@ -1,0 +1,23 @@
+name: practical_4
+description: A Subject-wise IT Quiz application built with Flutter.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  audioplayers: ^6.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/correct.mp3
+    - assets/sounds/incorrect.mp3
+    - assets/sounds/quiz_complete.mp3
